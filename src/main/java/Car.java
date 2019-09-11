@@ -31,5 +31,6 @@ public class Car {
 
     public void lookInto(Service service){
         cornflake.accept(service);
+        body.accept(service);
     }
 }

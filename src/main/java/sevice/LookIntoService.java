@@ -15,7 +15,7 @@ public class LookIntoService implements Service {
     }
 
     public void visit(Body element) {
-
+        System.out.println("Look, here is a " + element.getName());
     }
 
     public void visit(Cornflake element) {
